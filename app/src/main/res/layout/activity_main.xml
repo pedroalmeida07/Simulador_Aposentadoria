@@ -53,7 +53,7 @@
         android:layout_marginTop="15dp"
         android:textColor="@color/verde"
         android:padding="8dp"
-        android:backgroundTint="@color/verde"
+        android:background="@color/bege"
         android:fontFamily="@font/fonte"/>
 
     <TextView
