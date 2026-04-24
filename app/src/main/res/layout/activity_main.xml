@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/Spinner_sx"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/EditTextIdade"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:digits="0123456789"
+        android:hint="Digite sua idade"
+        android:inputType="number"
+        android:maxLength="3"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Calcular"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:backgroundTint="@color/laranja"
+        android:fontFamily="@font/fonte"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/calculadora"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/txtResultado"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/verde"
+        android:padding="8dp"
+        android:backgroundTint="@color/verde"
+        android:fontFamily="@font/fonte"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/txtNome"
+        android:text="@string/nomeAluno"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textColor="@color/laranja"
+        android:fontFamily="@font/fonte"
+        android:padding="8dp"
+        android:backgroundTint="@color/verde"/>
+
+
+</LinearLayout>
