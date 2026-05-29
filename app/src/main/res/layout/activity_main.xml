@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:digits="0123456789"
-        android:hint="Digite sua idade"
+        android:hint="@string/txtEditText"
         android:inputType="number"
         android:maxLength="3"
         android:padding="15dp"
@@ -34,15 +34,14 @@
         android:id="@+id/btnCalcular"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:text="Calcular"
+        android:text="@string/txtBotao"
         android:layout_marginTop="15dp"
         android:textColor="@color/white"
         android:padding="15dp"
         android:backgroundTint="@color/laranja"
         android:fontFamily="@font/fonte"
         android:textSize="16sp"
-        android:drawableLeft="@drawable/calculadora"
-        />
+        android:drawableLeft="@drawable/calculadora" />
 
     <TextView
         android:layout_width="match_parent"

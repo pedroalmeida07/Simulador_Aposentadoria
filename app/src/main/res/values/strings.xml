@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Aposentadoria</string>
     <string name="nomeAluno">Pedro de Souza Almeida</string>
+    <string name="txtBotao">Calcular</string>
+    <string name="txtEditText">Digite sua idade</string>
 </resources>
